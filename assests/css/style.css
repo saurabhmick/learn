@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+input[type="search"] {
+    width: 400px !important;
+}
+
+button {
+    width: auto;
+    height: 35px;
+    vertical-align: middle;
+    margin: auto !important;
+}
+
+.second-header {
+    background-color: #fdf2df;
+}
+
+.h_text {
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 15px;
+    color: #9b9693;
+}
+
+.third ul {
+    list-style-type: none;
+}
+
+.third ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.third ul li {
+    margin-left: 30px;
+    ;
+}
+
+.third span {
+    border: 1px solid white;
+    background-color: blue;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.card-header {
+    background-color: #dbdde9 !important;
+    font-size: 15px !important;
+}
+
+.box-2 {
+    border-bottom: 1px solid lightgrey;
+}
+
+.card {
+    box-shadow: 1px 2px 2px 1.9px lightgray;
+}
+
+h6 {
+    font-size: 13px !important;
+    font-family: Calibri;
+    font-weight: 700 !important;
+    color: #273962 !important;
+}
+
+.box span {
+    font-size: 11px;
+    white-space: nowrap;
+    font-family: Calibri;
+    font-weight: 700;
+   
+}
+
+.box-2 span {
+    font-size: 11px;
+    white-space: nowrap;
+    font-family: Calibri;
+    font-weight: 700;
+}
+.nav-item span{
+   padding:0px 14px!important;
+}
+.remainders {
+    font-size: 13px;
+    white-space: nowrap;
+    font-family: Calibri;
+    font-weight: 700;
+    color: red;
+}
+
+th {
+    font-size: 13px;
+    white-space: nowrap;
+    font-family: Calibri;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-bottom-color: blue !important;
+}
+
+.card .fa-truck:before {
+    padding: 41px;
+    font-size: 25px;
+}
+/* Defines the width of the carousel and centers it on the page */
+.slick-carousel {
+    margin: 0 auto;
+   
+  }
+  
+  /* The width of each slide */
+  .slick-slide {
+    width: 350px;
+  }
+  
+  /* Color of the arrows */
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+  .slick-dots li button:before{
+    color: white !important;
+    font-size: 8.5px !important;
+  }
+  .slick-dots{
+    bottom:2px !important;
+  }
+  .card-body .slick-dots li button:before{
+    color:red !important;
+    top:6px !important;
+  }
+  .list-1 li span{
+    font-size: 12px;
+    font-family:Calibri ;
+    font-weight: 700;
+  }
+  .list-2 li span{
+    font-size: 12px;
+    font-family:Calibri ;
+    font-weight: 700;
+  }
+  .today_performance {
+    list-style-type: none;
+  }
+input[type="search"]::before{
+    content: "\f002";
+    color: red;
+}
+.btn{
+    position: absolute;
+    top:13px;
+    left: 72%;
+   
+}
+.dash_fuel_details{
+    height:240px !important;
+    overflow-y: auto !important;
+}
+tr td{
+    font-size: 11px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+.nav-item button{
+    font-size: 13px;
+    font-family: Calibri;
+    font-weight: 700;
+}
+.whitespace{
+    white-space: nowrap;
+}
+.notifi1{
+    font-size:11px;
+}
+.notifi1 span::nth-child{
+    font-weight: 700;
+}
+.notifi1 .slick-dots li button:before{
+    color: red;
+}
+li a{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.clr1{
+    background-color: azure;
+    margin: 0 0 2px 0!important;
+    height: 100px !important;
+}
+.track_in{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    text-align: center;
+    font-size: 9px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px 12px;
+    background: floralwhite;
+    
+}
